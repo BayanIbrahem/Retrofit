@@ -1,9 +1,0 @@
-this contains data source
-    local: like database and dao - utils which it converter classes and of course DataStore also
-    remote: like api
-
-also it contains repository class witch will apply repository interface that will contains all
-requirements for applying data source logic
-
-finally contains workers classes.
-

@@ -39,7 +39,7 @@ android {
 dependencies {
 
     def retrofitVersion = "2.9.0"
-    def okhttp3Version = "4.9.0"
+    def okhttp3Version = "4.1.0"
     def coroutinesVersion = "1.6.1"
     def coroutinesLifecycleVersion = "2.5.1"
 
@@ -54,7 +54,7 @@ dependencies {
     // Retrofit:
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    implementation "com.squareup.okhttp3:okhttp3:$okhttp3Version"
+    implementation "com.squareup.okhttp3:okhttp:$okhttp3Version"
 
     // Coroutines:
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
